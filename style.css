@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+} 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    margin: 20px;
+}
+.nav-bar ul{
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 1.5rem; 
+}
+a{
+    outline: none;
+    color: white;
+}
+.container{
+    color: white;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+}
+h1{
+    font-size: 2.5rem;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 1.5rem;
+}
+input{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    line-height: 3rem;
+    border-bottom: 2px solid #ccc;
+}
+#error{
+    color: red;
+}
+#success{
+    color: green;
+}
+#btn{
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container-2{
+    color: white;
+    width: 500px;
+    height: 400px;
+    margin: 80px;
+}
+.para p{
+ padding-top: 30px;   
+ font-size: 30px;
+}
+#result,#resultmail,#resultpass{
+    font-size: 30px;
+    padding-top: 30px;
+    color: white;
+}
+.logbtn{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
